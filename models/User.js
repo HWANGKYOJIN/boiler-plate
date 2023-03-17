@@ -5,7 +5,7 @@ const userSchema = mongoose.Schema({
         type: String,
         maxlength: 50,
     },
-    emial: {
+    email: {
         type: String,
         trim: true,
         // 스페이스 알아서 채워준다.
